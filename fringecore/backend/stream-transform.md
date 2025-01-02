@@ -29,26 +29,21 @@
 
 1. **Clone the Repository:**
    
-bash
-   git clone git@github.com:fringecore/fringecore-backend-challenge-stream-transform.git
+    `git clone git@github.com:fringecore/fringecore-backend-challenge-stream-transform.git`
 2. **Navigate to Directory:**
    
-bash
-   cd fringecore-backend-challenge-stream-transform
-3. **Open in Editor:**  Open the project in your preferred code editor (e.g., VS Code).
+    `cd fringecore-backend-challenge-stream-transform`
+1. **Open in Editor:**  Open the project in your preferred code editor (e.g., VS Code).
 
-4. **Start Origin Server:**
+2. **Start Origin Server:**
    
-bash
-   npm run origin-server
-5. **Start Your Proxy Server:** In a separate terminal tab:
+    `npm run origin-server`
+1. **Start Your Proxy Server:** In a separate terminal tab:
    
-bash
-   npm run start
-6. **Run Tests:**
+   `npm run start`
+2. **Run Tests:**
    
-bash
-   npm run test
+    `npm run test`
 
 ## Partial Success Milestones
 
@@ -66,10 +61,8 @@ This challenge is difficult.  Consider these milestones as you progress:
 
 1. **Add Remote Repository:** Replace <applicant_id> with your actual ID (case-sensitive).
    
-bash
-   git remote add fringecore ssh://submission.fringecore.sh/<applicant_id>/fringecore-backend-challenge-stream-transform
-2. **Push to Remote:**
+    `git remote add fringecore ssh://submission.fringecore.sh/<applicant_id>/fringecore-backend-challenge-stream-transform`
+1. **Push to Remote:**
    
-bash
-   git push fringecore main
+    `git push fringecore main`
    (You may need to accept the SSH host key fingerprint.)
