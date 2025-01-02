@@ -11,17 +11,17 @@ Build a GPU-accelerated color picker with a pentagon shape.  You'll implement th
 
 **Core Requirements:**
 
-•   Implement a kernel function (`kernelFunction` in `kernel.js`) to generate a color picker gradient.
-•   Handle hue transitions across the color spectrum (0-360 degrees).
-•   Create horizontal gradients (white to primary color).
-•   Apply vertical gradients (white to black).
+*  Implement a kernel function (`kernelFunction` in `kernel.js`) to generate a color picker gradient.
+*   Handle hue transitions across the color spectrum (0-360 degrees).
+*   Create horizontal gradients (white to primary color).
+*   Apply vertical gradients (white to black).
 
 **Color Computation Features:**
 
-•   RGB calculations based on hue.
-•   Smooth transitions between primary colors.
-•   Correct alpha channel handling (likely fully opaque).
-•   Pixel-perfect gradient rendering.
+*   RGB calculations based on hue.
+*   Smooth transitions between primary colors.
+*   Correct alpha channel handling (likely fully opaque).
+*   Pixel-perfect gradient rendering.
 
 
 ## Your Task: Implement `kernelFunction`
@@ -54,19 +54,19 @@ The `kernelFunction` in `kernel.js` should:
 
 ## Evaluation Points
 
-•   Basic color computation.
-•   Correct hue transitions.
-•   Proper gradient implementation.
-•   Performance optimization (GPU utilization).
-•   **Bonus Features:** Smooth color interpolation, custom gradient patterns, further performance optimizations.
+*   Basic color computation.
+*   Correct hue transitions.
+*   Proper gradient implementation.
+*   Performance optimization (GPU utilization).
+*   **Bonus Features:** Smooth color interpolation, custom gradient patterns, further performance optimizations.
 
 
 ## Best Practices
 
-•   Efficient GPU-friendly computations.
-•   Normalized values (0-1) for calculations.
-•   Proper handling of edge cases.
-•   Clean, well-organized code.
+*   Efficient GPU-friendly computations.
+*   Normalized values (0-1) for calculations.
+*   Proper handling of edge cases.
+*   Clean, well-organized code.
 
 
 ## Submission

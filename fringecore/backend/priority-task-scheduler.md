@@ -15,13 +15,13 @@
 
 The goal is to modify the `processTask()` function in `challenge.mjs` to handle tasks with priorities, following these rules:
 
-•   **Single Task Processing:** Only one task can be processed at a time.
-•   **Task Duration:** Each task must be processed for exactly 5 seconds.
-•   **Priority Handling:**
+*   **Single Task Processing:** Only one task can be processed at a time.
+*   **Task Duration:** Each task must be processed for exactly 5 seconds.
+*   **Priority Handling:**
     *   When a higher-priority task arrives, the currently running task must be paused.
     *   The higher-priority task must be processed immediately.
     *   Once the higher-priority task is done, the paused task should resume from where it left off.
-•   **Task Management:**  Implement a smooth process to prevent task loss or indefinite delays.
+*   **Task Management:**  Implement a smooth process to prevent task loss or indefinite delays.
 
 ## Details
 
@@ -57,8 +57,8 @@ This challenge is recognized as difficult. Consider these milestones as indicato
 
 1.  **Add Remote Repository:** Replace <applicant_id> with your actual ID (case-sensitive).
  
-    `git remote add fringecore ssh://submission.fringecore.sh/<applicant_id>/fringecore-backend-challenge-priority-task-scheduler2.`
+    `git remote add fringecore ssh://submission.fringecore.sh/<applicant_id>/fringecore-backend-challenge-priority-task-scheduler`
     
-    **Push to Remote:**
+2.  **Push to Remote:**
 
     `git push fringecore main`    (You may need to accept the SSH host key fingerprint.)

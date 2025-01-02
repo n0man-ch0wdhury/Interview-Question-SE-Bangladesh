@@ -62,7 +62,6 @@ This challenge is difficult.  Consider these milestones as you progress:
 1. **Add Remote Repository:** Replace <applicant_id> with your actual ID (case-sensitive).
    
     `git remote add fringecore ssh://submission.fringecore.sh/<applicant_id>/fringecore-backend-challenge-stream-transform`
-1. **Push to Remote:**
-   
+2. **Push to Remote:**   
     `git push fringecore main`
    (You may need to accept the SSH host key fingerprint.)
